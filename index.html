@@ -33,7 +33,7 @@
 
 </head>
 
-<body id="page-top" onload="reviewingVis('reviewing.json'); getPublicationsAuthor('emile-blettery');">
+<body id="page-top" onload="reviewingVis('reviewing.json');getJournalPublicationsAuthor('emile-blettery');getConfPublicationsAuthor('emile-blettery');getBookPublicationsAuthor('emile-blettery');getOtherPublicationsAuthor('emile-blettery');">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <select class="selectpicker" data-width="fit">
@@ -66,8 +66,8 @@
           <a class="nav-link js-scroll-trigger lang-fr" href="#news">Actualités</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#experience">Experience</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#experience">Parcours professionnel</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#timeline">Experience</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#timeline">Parcours professionnel</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#education">Education</a>
@@ -99,9 +99,9 @@
         <div class="subheading mb-5">73 avenue de Paris · 94165 Saint-Mandé CEDEX ·
           <a>emi<!--anti@spam.fr!-->le.blettery@ign.fr</a>
         </div>
-        <p class="lead mb-5 lang-en">PhD student in Computer Vision and Machine Learning applied to historical images content-based indexing and retrieval.</p>
+        <p class="lead mb-5 lang-en">PhD student in Computer Vision and Machine Learning applied to historical images' content-based indexing and retrieval.</p>
         <p class="lead mb-5 lang-en">Member of the <a href="">ACTE</a> research team and working for the DHAAP of the City of Paris.</p>
-        <p class="lead mb-5 lang-fr">Doctorant en vision par ordinateur et machine learning appliqués à l'indexation et la recherche basée image de clichés historiques.</p>
+        <p class="lead mb-5 lang-fr">Doctorant en vision par ordinateur et machine learning appliqués à l'indexation et la recherche d'image par contenu visuel de clichés historiques.</p>
         <p class="lead mb-5 lang-fr">Membre de l'équipe <a href="">ACTE</a>, en contrat avec le DHAAP de la Ville de Paris.</p>
         <!-- <div class="social-icons">
           <a href="#">
@@ -259,7 +259,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
@@ -317,7 +317,7 @@
               <span class="text-primary">September 2004 - December 2007</span>
             </div>
         </div>
-      </div>
+      </div> -->
 
     </section>
 
@@ -325,8 +325,10 @@
       <div class="container mar-bot50">
         <div class="row mar-bot40">
           <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Experience</h2>
-              <h3 class="section-subheading text-muted mb-5">Past jobs and roles in research</h3>
+              <h2 class="section-heading lang-en">Experience</h2>
+              <h2 class="section-heading lang-fr">Parcours professionnel</h2>
+              <h3 class="section-subheading text-muted mb-5 lang-en">Past jobs and roles in research</h3>
+              <h3 class="section-subheading text-muted mb-5 lang-fr">Expériences de recherche passées</h3>
           </div>
         </div>
         <div class="row">
@@ -338,11 +340,14 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>10-09-2004</h4>
-                    <h4 class="subheading">Research assistant</h4>
+                    <h4 class="lang-en">2020 - 2023</h4>
+                    <h4 class="lang-fr">2020 - 2023</h4>
+                    <h4 class="subheading lang-en">PhD student in Computer Vision, IGN - City of Paris</h4>
+                    <h4 class="subheading lang-fr">Doctorant en vision par ordinateur, IGN - Ville de Paris</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">I start working at IGN France as a research assistant in the COGIT research team, assisting Cécile Duchêne and Anne Ruas on map generalisation.</p>
+                    <p class="text-muted lang-en">I work on content-based image indexing and retrieval for historical images of the city of Paris.</p>
+                    <p class="text-muted lang-fr">Je travaille sur l'indexation et la recherche d'image par contenu visuel, spécifiquement sur des images historiques de la ville de Paris.</p>
                   </div>
                 </div>
               </li>
@@ -352,11 +357,14 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>01-01-2008</h4>
-                    <h4 class="subheading">PhD student</h4>
+                    <h4 class="lang-en">October 2020 - February 2021</h4>
+                    <h4 class="lang-fr">Octobre 2020 - Février 2021</h4>
+                    <h4 class="subheading lang-en">Research engineer in the <a href="https://archivalcity.hypotheses.org/" target=new>Archival City</a> project, IGN - Gustave Eiffel University</h4>
+                    <h4 class="subheading lang-fr">Ingénieur de recherche dans le projet <a href="https://archivalcity.hypotheses.org/" target=new>Archival City</a>, IGN - Université Gustave Eiffel</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">My PhD, <a href="http://recherche.ign.fr/labos/cogit/pdf/THESES/TOUYA/theseTouya.pdf">obtained in June 2011</a>, was supervised by Cécile Duchêne and Anne Ruas, and dealt with collaborative map generalisation.</p>
+                    <p class="text-muted lang-en">I worked on the ITowns platform on developing a tool to covisualize images, maps and statistics of the past for historians and sociologists.</p>
+                    <p class="text-muted lang-fr">J'ai participé au développement d'un outil de covisualisation de cartes, images et statistiques historiques sur la plateforme ITowns, à destination des historiens et sociologues.</p>
                   </div>
                 </div>
               </li>
@@ -366,53 +374,14 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>01-07-2011</h4>
-                    <h4 class="subheading">Senior researcher at COGIT research team, IGN</h4>
+                    <h4 class="lang-en">April - September 2019</h4>
+                    <h4 class="lang-fr">Avril - Septembre 2019</h4>
+                    <h4 class="subheading lang-en">Research intern in the <a href="http://alegoria.ign.fr" target=new>ANR ALEGORIA</a> project, IGN</h4>
+                    <h4 class="subheading lang-fr">Stagiaire dans le projet de recherche <a href="http://alegoria.ign.fr" target=new>ANR ALEGORIA</a>, IGN</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">After my PhD, I become a senior researcher, still in COGIT team, at IGN France. I'm part of the group on automated cartography and geovisualization.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>04-05-2017</h4>
-                    <h4 class="subheading">Habilitation defense</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Defense of my <a href="http://recherche.ign.fr/labos/cogit/pdf/HDR/hdr-touya-2017.pdf">habilitation (HDR)</a> in GI science, which allows in France to be the main supervisor of PhD students.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>15-07-2017</h4>
-                    <h4 class="subheading">Head of COGIT research team</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I take over the leadership if the COGIT research team from Sébastien Mustière.</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>01-09-2018</h4>
-                    <h4 class="subheading">Vice-head of LASTIG lab</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I become the vice-head of the new <a href="http://umrlastig.github.io/website">LASTIG lab.</a></p>
+                    <p class="text-muted lang-en">To validate my Master's degree in geomatics engineering, I worked on a workflow to automatically geolocalize historical images.</p>
+                    <p class="text-muted lang-fr">Mon stage de fin d'études consistait au développement d'un processus automatisé de géolocalisation d'images historiques.</p>
                   </div>
                 </div>
               </li>
@@ -426,46 +395,30 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5 lang-en">Education</h2>
+        <h2 class="mb-5 lang-fr">Formation</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Université Paris-Est</h3>
-            <div class="subheading mb-3">Habilitation (HDR)</div>
-            <div>Geographical Information Science</div>
+            <h3 class="mb-0 lang-en">City of Paris · Gustave Eiffel University · IGN</h3>
+            <h3 class="mb-0 lang-fr">Ville de Paris · Université Gustave Eiffel · IGN</h3>
+            <div class="subheading mb-3 lang-en">PhD in Computer Vision and ML for content-based indexing and retrieval of historical images.</div>
+            <div class="subheading mb-3 lang-fr">Doctorat en vision par ordinateur et ML pour l'indexation de clichés historiques.</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">May 2017</span>
+            <span class="text-primary">2020 - 2023</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">Université Paris-Est</h3>
-            <div class="subheading mb-3">PhD in Geographical Information Science</div>
+            <h3 class="mb-0 lang-en">French National School of Geographic Sciences - Geomatics</h3>
+            <h3 class="mb-0 lang-fr">Ecole Nationale des Sciences Géographiques - Géomatique</h3>
+            <div class="subheading mb-3 lang-en">Engineering school</div>
+            <div class="subheading mb-3 lang-fr">Ecole d'ingénieur</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">January 2008 - June 2011</span>
-          </div>
-        </div>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">ENSG</h3>
-            <div class="subheading mb-3">Engineering school</div>
-            <div>Geographical Information Science</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2001 - September 2004</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Université Paris-Est</h3>
-            <div class="subheading mb-3">Master in Geographical Information Science</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2003 - September 2004</span>
+            <span class="text-primary">2016 - 2019</span>
           </div>
         </div>
       </div>
@@ -474,6 +427,34 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
+      <div class="w-100">
+        <h2 class="mb-5">Publications</h2>
+
+        <!-- <div class="subheading mb-3 mt-3">Journals</div>
+        <ol id="pubJ" class="sub">
+        </ol> -->
+
+        <div class="subheading mb-3 mt-3 lang-en">Conferences</div>
+        <div class="subheading mb-3 mt-3 lang-fr">Conférences</div>
+        <ol id="pubC" class="sub" style="padding-bottom: 10px;">
+        </ol>
+
+        <!-- <div class="subheading mb-3 mt-3">Books and Chapters</div>
+        <ol id="pubB" class="sub">
+        </ol> -->
+
+        <!-- <div class="subheading mb-3 mt-3">Workshops and Posters</div>
+        <ol id="pubW" class="sub">
+        </ol> -->
+
+        <!-- <div class="subheading mb-3 mt-3">Other Publications (Technical Reports, Dissertations, Dissemination)</div>
+        <ol id="pubO" class="sub">
+        </ol> -->
+
+      </div>
+    </section>
+
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
       <div class="w-100">
         <h2 class="mb-5">Publications</h2>
 
@@ -490,31 +471,27 @@
         <span id="pubTH"><div class="subheading mb-3 mt-3">[TH] Dissertations</div></span>
         <span id="pubINV"><div class="subheading mb-3 mt-3">[INV] Invited Talks</div></span>
         <span id="pubPV"><div class="subheading mb-3 mt-3">[PV] Popularization</div></span>
-
-        <!-- provide a subset of the publications based on a keyword -->
-        <!--
-        <span id="pubGeneralisation"><div class="subheading mb-3 mt-3">Généralisation</div></span>
-	<script> getKeywordPublicationsAuthorStartYear('guillaume-touya', 'Généralisation', 2006, "pubGeneralisation"); </script>
-        -->
       </div>
-    </section>
+    </section> -->
 
-    <section class="section appear clearfix p-3 p-lg-5">
+    <!-- <section class="section appear clearfix p-3 p-lg-5">
       <div class="w-100">
         <h2 class="mb-5 mt-5">Invited Talks</h2>
         <ol id="talks" class="sub">
         </ol>
       </div>
-    </section>
+    </section> -->
 
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="container">
         <div class="row text-center title">
-          <h2>Projects</h2>
+          <h2 class="lang-en">Projects</h2>
+          <h2 class="lang-fr">Projets</h2>
         </div>
-        <div class="subheading mb-3">On-going and past research projects</div>
+        <div class="subheading mb-3 lang-en">On-going and past research projects</div>
+        <div class="subheading mb-3 lang-fr">Projets de recherche en cours ou passés</div>
         <div class="row projects">
           <div class="col-md-4">
             <div class="project">
